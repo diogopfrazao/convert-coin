@@ -1,0 +1,136 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+ }
+
+ body {
+
+    /* background-color: #a6cca0 */
+    background-image: url('./fundo.png');
+    background-size: cover; /* Isso faz com que a imagem cubra todo o elemento pai */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-position: center center; /* Centraliza a imagem no elemento pai */
+    height: 100vh;
+    display: block;
+    
+ 
+
+
+ }
+
+ h1 {
+
+    text-align: center;
+    color: #2b7020 ;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+ }
+
+ .logo {
+
+    display: block;
+    width: 300px;
+    margin: 3px auto;
+
+
+ }
+
+ main {
+    width: 375px;
+    background: #F4F4F4;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+    border: 4px solid #73bd68 ;
+
+
+ }
+
+ label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 4%;
+ 
+ }
+
+ select , input{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color:#555555 ;
+
+ }
+
+ button{
+   background:#73bd68 ;
+   border-radius: 5px;
+   width: 100%;
+   border: none;
+   height: 48px;
+   color: #FFFFFF;
+   font-size: 18px;
+   font-weight:700 ;
+   cursor: pointer;
+   
+
+ }
+
+ button:hover{
+   opacity: 0.8;
+
+ }
+
+ button:active{
+
+   opacity: 0.6;
+
+ }
+ .icon {
+
+    display: block;
+    margin: 20px auto;
+    height: 50px;
+   
+ }
+
+
+ p {
+    text-align: center;
+ }
+
+ section {
+
+   border: 3px solid #73bd68 ;
+   border-radius: 5px;
+   border-radius: 20px;
+   margin-top: 20px;
+   padding: 10px;
+  
+ 
+ }
+
+ .currency-value, .currency-value-to-convert {
+
+   color: #555555;
+   font-weight: 700;
+   font-size: 20px;
+ }
+
+ .iconEuro {
+   display: none;
+ }

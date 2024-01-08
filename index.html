@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+
+    
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <h1>Convert Money</h1>
+
+
+    <!-- <img class="logo" src="./assets/logo.gif" alt="logo-image-converter"> -->
+
+    <main>
+        <label>
+            converter <b>de</b>
+            <select>
+
+                <option>R$ Real Brasileiro</option>
+
+            </select>
+
+        </label>
+
+        <label>
+            converter <b>para</b>
+            <select class="currency-select">
+                <option value="dolar">US$ Dolar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="bitic">Biticoin</option>
+            </select>
+
+        </label>
+
+        <label>
+            valor:
+            <input class="input-currency" placeholder="R$ 10.000,00">
+        </label>
+
+        <button class="butao-convert">Converter</button>
+
+
+        <section>
+            <div>
+                <img class="icon" src="./assets/real.png" alt="moeda-a-converter" />
+                <p>Real</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
+            </div>
+
+            <img class="icon" src="./assets/gif-seta.gif" alt="Vector" />
+
+            <div>
+                <img class="icon" id="currency-img"  src="./assets/dolar.png" alt="moeda-convertertida" />
+                <p  id="currency-name">Dolar americano</p>
+                <p class="currency-value" >US$ 0.0</p>
+            </div>
+            
+
+
+           <!--  
+            <div>
+                <img class="iconEuro"  src="./assets/euro.png" alt="moeda-convertertida" />
+                
+            </div>
+ -->
+        </section>
+
+    </main>
+    <script src="./assets/script.js"></script>
+    
+</body>
+
+
+</html>
